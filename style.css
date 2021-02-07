@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body { 
+    background-image: url(4872052.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+div button{
+    display: inline;
+}
+.namebutton { 
+    width: 200px;
+    height:auto;
+    background: linear-gradient(60deg, rgb(122, 253, 89), #fff);
+    transition: all .5s;
+}
+.namebutton:hover{
+    background-color: #fff;
+}
+.toiletbutton{
+    width: 200px;
+    height:fit-content;
+    background: linear-gradient(60deg, rgb(122, 253, 89), #fff);
+    transition: all .5s;
+    text-decoration: none;
+
+}
+.toiletbutton:hover{
+    background-color: #fff;
+}
+.land {
+    margin: 0 12vw; 
+    background-image: url(kelcy-gatson-QftcBQYxVNM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: #b73434; */
+    height: 76vh;
+    overflow: hidden;
+} 
+.topnav {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.top-para {
+    position: absolute;
+    top: 10%;
+    padding: 2% 15% 0 48%;
+    font-family: 'Comic Neue', cursive;
+}
+.navele {
+    margin: 0 10vw;
+}
+li {
+    /* border: 1px black solid; */
+    margin: 0;
+    border-radius: 40px;
+    
+}
+ul {
+    list-style: none;
+    color: #fff;
+}
+a {
+    margin: 0 3vw;
+    color: white;
+    font-size: 1.75vw;
+    font-family: 'Comic Neue', cursive;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    z-index:1;
+    position: absolute;
+    top: 100px;
+    padding: 0 5%;
+}
+.top{
+    padding: 0 5%;
+    top: 100px;
+    width: 50%;
+    position: absolute;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.second{
+    margin: 0 12vw; 
+    /* background-color: #b73434; */
+    background-image: url(pexels-skitterphoto-3706.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 76vh;
+    overflow: hidden;
+    position: relative;
+    padding: 5vw 2vw;
+    font-family: 'Comic Neue', cursive;
+}
+.about{
+    float: right;
+    width: 45%;
+    padding: 0 1vw;
+}
+.para {
+    padding: 5vw 2vw;
+    font-size: 1.5vw;
+    color: white
+}
+.third{
+    margin: 0 12vw; 
+    /* background-color: #b73434; */
+    background-image: url(pexels-carolina-castilla-arias-1716861.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 110vh;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Comic Neue', cursive;
+    padding: 2vw 2vw;
+}
+.act{
+    padding-bottom: 2vw;
+}
+.last{
+    margin: 0 12vw; 
+    /* background-color: #b73434; */
+    background-image: url(pexels-skitterphoto-42415.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Comic Neue', cursive;
+    padding: 0.5vw 2vw;
+}
+
+
+.feed{
+    padding-bottom: 2vw ;
+}
+
+.activity-button {
+    font-size: 2vw;
+    padding: 1vw 2vw;
+    margin: 0 1vw;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius: 40px;
+    color: rgb(0, 255, 106);
+    font-weight: 900;
+}
+
+.activity-button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 64);
+}
+
+.activities {
+    width: 20%;
+}

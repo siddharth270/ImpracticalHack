@@ -1,0 +1,30 @@
+.land {
+    margin: 10vw 12vw; 
+    background-color: #ff0101;
+    /* background-image: url(pexels-zaksheuskaya-1616403.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    overflow: hidden;
+} 
+body { 
+    background-image: url(4872052.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 50px;
+}
+h1 {
+    font-family: 'Comic Neue', cursive;
+}
+
+li{
+    font-family: 'Comic Neue', cursive;
+    font-weight:1000;
+}
+
+ul {
+    list-style: none;
+}
